@@ -460,7 +460,7 @@ fun Scene3(navigation: NavHostController) {
                 )
 
                 Text(
-                    text = "You win !!! Your score is 30",
+                    text = "You win !!! Your score is 20",
                     color = Color.Yellow,
                     fontFamily = myFont,
                     fontSize = 18.sp,
@@ -479,7 +479,6 @@ fun Scene3(navigation: NavHostController) {
                             navigation.navigate(Displays.DisplayTwo.scene)
                         }
                 )
-
             }
         }
     }
