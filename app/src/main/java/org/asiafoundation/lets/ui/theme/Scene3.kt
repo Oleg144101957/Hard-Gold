@@ -460,7 +460,7 @@ fun Scene3(navigation: NavHostController) {
                 )
 
                 Text(
-                    text = "You win !!! Your score is ${score.value}",
+                    text = "You win !!! Your score is 30",
                     color = Color.Yellow,
                     fontFamily = myFont,
                     fontSize = 18.sp,
