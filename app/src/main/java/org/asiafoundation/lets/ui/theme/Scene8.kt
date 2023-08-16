@@ -82,7 +82,7 @@ fun Scene8(navigation: NavHostController) {
                 )
 
                 Text(
-                    text = "Gnom Size",
+                    text = "Gnome Size",
                     color = Color.White,
                     fontFamily = myFont,
                     modifier = Modifier

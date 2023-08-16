@@ -44,6 +44,8 @@ import androidx.compose.ui.layout.positionInParent
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -55,6 +57,9 @@ import kotlin.math.roundToInt
 @Composable
 fun Scene3(navigation: NavHostController) {
     //Play
+
+    val myFont = FontFamily(Font(R.font.chibola))
+
 
     val a = LocalContext.current as Activity
     a.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
@@ -378,7 +383,8 @@ fun Scene3(navigation: NavHostController) {
         Text(
             text = "Your score is ${score.value}",
             color = Color.White,
-            fontSize = 24.sp,
+            fontSize = 18.sp,
+            fontFamily = myFont,
             modifier = Modifier
                 .align(Alignment.TopCenter)
                 .padding(top = 16.dp)

@@ -82,7 +82,7 @@ fun Scene2(navigation: NavHostController) {
         )
 
         Column(modifier = Modifier
-            .align(Alignment.BottomCenter)
+            .align(Alignment.Center)
             .offset(y = animateYoffset.value.dp)
         ) {
 
